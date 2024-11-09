@@ -5,14 +5,13 @@ import { auth } from "@/app/Firebase/config";
 import logincss from "./login.module.css";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import Link from "next/link";
-// import { useRouter } from "next/navigation";
 
 export default function account() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [createUserWithEmailAndPassword] =
     useCreateUserWithEmailAndPassword(auth);
-  // const router = useRouter();
+ 
 
   const handleSignUp = async () => {
     try {
@@ -21,7 +20,7 @@ export default function account() {
       sessionStorage.setItem('user', true)
       setEmail("");
       setPassword("");
-      // router.push("/");
+      
     } catch (e) {
       console.error(e);
     }
