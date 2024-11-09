@@ -1,0 +1,22 @@
+.footer__container {
+  position: sticky;
+  bottom: 0;
+  background-color: rgb(55, 55, 55);
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.link {
+  margin: 24px 24px 24px 24px;
+  color: white;
+}
+
+.link:hover {
+  color: grey;
+}
