@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <div className={NavCss.nav__bar}>
       <ul className={NavCss.list__wrapper}>
-
+        
         <div className={NavCss.link__box}>
           <li className={NavCss.list}>
             <Link className={NavCss.links} href="/">

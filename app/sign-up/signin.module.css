@@ -23,7 +23,7 @@
     padding: 0.6em;
     background-color: #ccc;
     box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
-    transition: 300ms ease-in-out;
+    /* transition: 300ms ease-in-out; */
   }
   
   .btn:focus {
@@ -40,11 +40,11 @@
     padding: 0.6em;
     background-color: #ccc;
     box-shadow: outset 2px 5px 10px rgba(0,0,0,0.3);
-    transition: 300ms ease-in-out;
+    transition: 10ms;
   }
   
   .btn__login:active{
-    transform: scale(0.9);
+    transform: scale(0.95);
   }
   
   .link__box{

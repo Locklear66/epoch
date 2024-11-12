@@ -8,23 +8,23 @@ export default function merch() {
     <main className={merchcss.main}>
       <div className={merchcss.container}>
         <div className={merchcss.box}>
-          <Image className={merchcss.image} src={tshirt} />
+          <Image className={merchcss.image} src={tshirt} alt="merch samples" />
           <button className={merchcss.btn}>Add to cart</button> $40
         </div>
         <div className={merchcss.box}>
-          <Image className={merchcss.image} src={tshirt} />
+          <Image className={merchcss.image} src={tshirt} alt="merch samples"/>
           <button className={merchcss.btn}>Add to cart</button> $25
         </div>
         <div className={merchcss.box}>
-          <Image className={merchcss.image} src={tshirt} />
+          <Image className={merchcss.image} src={tshirt} alt="merch samples"/>
           <button className={merchcss.btn}>Add to cart</button> $75
         </div>
         <div className={merchcss.box}>
-          <Image className={merchcss.image} src={tshirt} />
+          <Image className={merchcss.image} src={tshirt} alt="merch samples"/>
           <button className={merchcss.btn}>Add to cart</button> $60
         </div>
         <div className={merchcss.box}>
-          <Image className={merchcss.image} src={tshirt} />
+          <Image className={merchcss.image} src={tshirt} alt="merch samples"/>
           <button className={merchcss.btn}>Add to cart</button> $10
         </div>
       </div>

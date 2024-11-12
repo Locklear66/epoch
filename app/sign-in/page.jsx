@@ -37,9 +37,8 @@ export default function account() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             type="email"
-            autocomplete="off"
+            autoComplete="off"
             name="text"
-            class="input"
             placeholder="Email"
           ></input>
           <input
@@ -47,9 +46,8 @@ export default function account() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             type="password"
-            autocomplete="off"
+            autoComplete="off"
             name="text"
-            class="input"
             placeholder="Password"
           ></input>
           <button className={logincss.btn__login} 

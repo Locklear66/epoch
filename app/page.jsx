@@ -51,8 +51,8 @@ export default function Home() {
           </Link>
         </div>
         <div className={styles.pic__container}>
-          <Image className={styles.img2} src={dragonslayer}></Image>
-          <Image className={styles.img2} src={openingTutorial}></Image>
+          <Image className={styles.img2} src={dragonslayer} alt="Dragon Slayer"></Image>
+          <Image className={styles.img2} src={openingTutorial} alt="Sample of world"></Image>
         </div>
         <div className={styles.pic__btn}>
           <Link href="https://discord.gg/tcEaX5hS6A" target="_blank">
@@ -60,8 +60,8 @@ export default function Home() {
           </Link>
         </div>
         <div className={styles.pic__container}>
-          <Image className={styles.img1} src={discord}></Image>
-          <Image className={styles.img1} src={discord2}></Image>
+          <Image className={styles.img1} src={discord} alt="Discord screen shot"></Image>
+          <Image className={styles.img1} src={discord2} alt="Discord screen shot"></Image>
         </div>
         <button onClick={() => {
           signOut(auth) 
@@ -89,10 +89,10 @@ export default function Home() {
           height="315"
           src="https://www.youtube.com/embed/__9k6maDBuY?si=5tKx9RGmnLDSSXgD"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          referrerolicy="strict-origin-when-cross-origin"
+          allowFullScreen
         ></iframe>
       </div>
       <div className={styles.video__container}>
@@ -102,10 +102,10 @@ export default function Home() {
           height="315"
           src="https://www.youtube.com/embed/YVvw8GenCrY?si=ufkXpLShT3q-iIHA"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
         ></iframe>
       </div>
     </main>
