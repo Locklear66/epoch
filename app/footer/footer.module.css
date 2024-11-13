@@ -10,11 +10,13 @@
 .copyright {
   color: white;
   font-size: 0.8rem;
+  font-weight: 100;
 }
 
 .link {
   margin: 24px 24px 24px 24px;
   color: white;
+  font-weight: 100;
 }
 
 .link:hover {

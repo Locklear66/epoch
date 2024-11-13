@@ -16,6 +16,7 @@ import { signOut } from 'firebase/auth'
 export default function Home() {
 
   const [user] = useAuthState(auth);
+  // dont delete you will need this.
   // const router = useRouter();
   // const userSession = sessionStorage.getItem('user')
 
