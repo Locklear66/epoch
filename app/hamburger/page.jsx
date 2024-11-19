@@ -23,7 +23,7 @@ const HamburgerMenu = () => {
           <li><a href="#">About</a></li>
           <li><a href="/merch">Merch</a></li>
           <li><a href="#">Contact</a></li>
-          <li><a href="/sign-in">Account</a></li>
+          <li><a href="/sign-up">Account</a></li>
           <li className={styles.play}><a href="https://epochofgenesis.com/download/EOGLauncher-prod-v1.0.exe">Play Now</a></li>
           
         </ul>

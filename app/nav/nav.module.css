@@ -25,7 +25,7 @@
 .link__box{
   margin-left: 20px;
   margin-right: 20px;
-  border-radius: 5px;
+  border-radius: 100%;
   padding: 15px 10px 0px 10px;
   background-color: rgb(44, 20, 20);
   box-shadow: outset 2px 5px 10px rgba(0,0,0,0.3);
