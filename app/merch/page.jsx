@@ -5,12 +5,16 @@ import tshirt from "/public/testproduct.webp";
 import epochhoodie from "/public/epochhoddie.webp";
 import epochbeenie from "/public/epochbeenie.webp";
 import epochlaptopbag from "/public/epochlaptopbag.webp";
+import cart from "/public/cart.webp"
 
 
 export default function merch() {
   return (
     <main className={merchcss.main}>
       <div className={merchcss.container}>
+        <div className={merchcss.cart__box}>
+          <Image classname={merchcss.carts} src={cart} alt="cart__icon"/>
+        </div>
         <div className={merchcss.box}>
           <Image className={merchcss.image} src={epochhoodie} alt="merch samples" />
           <button className={merchcss.btn}>Add to cart</button> $40

@@ -36,7 +36,7 @@ export default function Navbar() {
 
         <div className={NavCss.link__box}>
         <li className={NavCss.list}>
-          <Link className={NavCss.links} href="#">
+          <Link className={NavCss.links} href="/skills">
             Skills
           </Link>
         </li>
